@@ -10,6 +10,7 @@
 
 body{
   font-family: Montserrat, sans-serif;
+  color: #33475b;
 }
 
 section{
@@ -28,7 +29,7 @@ a{
 }
 
 .container{
-  padding: 0 15%;
+  padding: 0 18%;
 }
 
 .clearfix::after{
@@ -45,7 +46,7 @@ header{
 .nav-login{
   background-color: #F5F8FA;
   border-bottom: 1px solid #cbd6e2;
-  padding: 0 15%;
+  padding: 0 18%;
 }
 
 .language-selector{
@@ -86,7 +87,6 @@ h3{
 
 button{
   vertical-align: middle;
-  margin: 0 5px;
 }
 
 .btn-white{
@@ -96,6 +96,7 @@ button{
   background-color: #fff;
   border: 1px solid #ff7a59;
   border-radius: 5px;
+  margin: 0 5px;
 }
 
 .btn-orange{
@@ -105,6 +106,7 @@ button{
   background-color: #ff7a59;
   border: 1px solid #fff;
   border-radius: 5px;
+  margin: 0 5px;
 }
 
 header img{
@@ -112,7 +114,7 @@ header img{
 }
 
 .nav-main{
-  padding: 0 15%;
+  padding: 0 18%;
 }
 
 .nav-main img{
@@ -131,12 +133,42 @@ li{
 }
 
 /* REGOLE JUMBOTRON */
+#jumbotron{
+  background-image: url(img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 750px;
+}
+
 .titolo{
-  /* debug */
-  background-color: grey;
-  height: 250px;
-  /* end debug */
-  width: 30%;
+  width: 40%;
+  padding-top: 100px;
+}
+
+h1{
+  font-size: 46px;
+  margin-bottom: 40px;
+}
+
+.titolo p{
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+.btn-orange-big{
+  font-size: 18px;
+  height: 70px;
+  width: 205px;
+  color: #fff;
+  background-color: #ff7a59;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+h6{
+  font-size: 12px;
+  max-width: 50%;
 }
 
 /* REGOLE SEZIONE INFO PRINCIPALI */
