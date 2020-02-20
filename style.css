@@ -17,7 +17,6 @@ section{
   /* debug */
   background-color: red;
   min-height: 100px;
-  margin: 10px 0;
   /* end debug */
 }
 
@@ -26,6 +25,20 @@ a{
   color: #33475b;
   font-size: 18px;
   font-weight: bold;
+}
+
+h2{
+  font-size: 32px;
+}
+
+h6{
+  font-size: 12px;
+  max-width: 50%;
+}
+
+p{
+  font-size: 18px;
+  line-height: 1.5em;
 }
 
 .container{
@@ -138,6 +151,7 @@ li{
   background-repeat: no-repeat;
   background-size: 100%;
   min-height: 750px;
+  border-bottom: 5px solid #33475b;
 }
 
 .titolo{
@@ -148,11 +162,6 @@ li{
 h1{
   font-size: 46px;
   margin-bottom: 40px;
-}
-
-.titolo p{
-  font-size: 18px;
-  line-height: 1.5em;
 }
 
 .btn-orange-big{
@@ -166,17 +175,23 @@ h1{
   margin: 20px 0;
 }
 
-h6{
-  font-size: 12px;
-  max-width: 50%;
+/* REGOLE SEZIONE INFO PRINCIPALI */
+#info-principali{
+  background-color: #F5F8FA;
 }
 
-/* REGOLE SEZIONE INFO PRINCIPALI */
 .info-powerful{
-  /* debug */
-  background-color: grey;
-  height: 250px;
-  /* end debug */
+  text-align: center;
+  margin: auto;
+  padding: 100px;
+}
+
+.info-powerful h2{
+  padding: 20px 0;
+}
+
+img[alt="dado"]{
+  height: 200px;
 }
 
 .info-free{
