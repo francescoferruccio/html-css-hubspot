@@ -1,0 +1,29 @@
+/* REGOLE GENERALI */
+*{
+  /* debug */
+  border: 1px solid black;
+  /* debug */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section{
+  /* debug */
+  background-color: red;
+  padding: 50px;
+  /* end debug */
+}
+
+/* REGOLE HEADER */
+header{
+  /* debug */
+  background-color: yellow;
+  padding: 50px;
+  /* end debug */
+}
+
+/* REGOLE FOOTER */
+footer section{
+  background-color: green;
+}
