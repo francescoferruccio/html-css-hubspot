@@ -1,8 +1,5 @@
 /* REGOLE GENERALI */
 *{
-  /* debug */
-  border: 1px solid black;
-  /* debug */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,16 +8,120 @@
 section{
   /* debug */
   background-color: red;
-  padding: 50px;
+  min-height: 200px;
+  margin: 10px 0;
   /* end debug */
+}
+
+.container{
+  padding: 0 10%;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* REGOLE HEADER */
 header{
   /* debug */
   background-color: yellow;
-  padding: 50px;
+  /* height: 200px; */
   /* end debug */
+}
+
+.nav-login{
+  /* debug */
+  background-color: orange;
+  margin-bottom: 10px;
+  /* end debug */
+}
+
+.nav-main{
+  /* debug */
+  background-color: orange;
+  /* end debug */
+}
+
+.language-selector{
+  /* debug */
+  height: 50px;
+  width: 40%;
+  background-color: grey;
+  /* end debug */
+  float: left;
+}
+
+.barra-login{
+  /* debug */
+  height: 50px;
+  width: 40%;
+  background-color: grey;
+  /* end debug */
+  float: right;
+}
+
+header img{
+  /* debug */
+  background-color: grey;
+  /* end debug */
+  float: left;
+}
+
+.nav-main ul{
+  /* debug */
+  background-color: grey;
+  height: 50px;
+  width: 40%;
+  /* end debug */
+  float: right;
+}
+
+
+/* REGOLE JUMBOTRON */
+.titolo{
+  /* debug */
+  background-color: grey;
+  height: 250px;
+  /* end debug */
+  width: 30%;
+}
+
+/* REGOLE SEZIONE INFO PRINCIPALI */
+.info-powerful{
+  /* debug */
+  background-color: grey;
+  height: 250px;
+  /* end debug */
+}
+
+.info-free{
+  /* debug */
+  background-color: grey;
+  height: 250px;
+  /* end debug */
+  margin: 10px 0;
+}
+
+.info-hub{
+  /* debug */
+  background-color: grey;
+  /* end debug */
+  margin: 10px 0;
+}
+
+.colonna-a-tre{
+  /* debug */
+  background-color: pink;
+  height: 350px;
+  /* debug */
+  width: 30%;
+  float: left;
+}
+
+.colonna-a-tre:nth-child(2){
+  margin: 0 5%;
 }
 
 /* REGOLE FOOTER */
