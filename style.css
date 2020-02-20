@@ -8,7 +8,7 @@
 section{
   /* debug */
   background-color: red;
-  min-height: 200px;
+  min-height: 100px;
   margin: 10px 0;
   /* end debug */
 }
@@ -124,7 +124,82 @@ header img{
   margin: 0 5%;
 }
 
+
+/* REGOLE SEZIONE AWARD */
+#award{
+  background-color: lightblue;
+}
+
+.award-top{
+  /* debug */
+  background-color: grey;
+  height: 100px;
+  margin-bottom: 10px;
+  /* end debug */
+}
+
+.box-container{
+  /* debug */
+  background-color: grey;
+  /* end debug */
+}
+
+.box{
+  /* debug */
+  background-color: pink;
+  height: 150px;
+  border: 1px solid black;
+  /* end debug */
+  width: 25%;
+  float: left;
+}
+
+/* REGOLE SEZIONE CUSTOMER */
+.number{
+  /* debug */
+  background-color: grey;
+  /* end debug */
+}
+
+.colonna-a-due{
+  /* debug */
+  height: 100px;
+  background-color: pink;
+  border: 1px solid white;
+  /* end debug */
+  width: 50%;
+  float: left;
+}
+
+.grow{
+  .number{
+    /* debug */
+    background-color: grey;
+    /* end debug */
+  }
+}
+
 /* REGOLE FOOTER */
-footer section{
+footer{
   background-color: green;
+}
+
+.bottom-left{
+  /* debug */
+  height: 50px;
+  background-color: pink;
+  border: 1px solid white;
+  /* end debug */
+  width: 20%;
+  float: left;
+}
+
+.bottom-right{
+  /* debug */
+  height: 50px;
+  background-color: pink;
+  border: 1px solid white;
+  /* end debug */
+  width: 20%;
+  float: right;
 }
