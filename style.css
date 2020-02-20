@@ -23,6 +23,8 @@ section{
 a{
   text-decoration: none;
   color: #33475b;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .container{
@@ -71,10 +73,6 @@ h3{
   display: inline-block;
 }
 
-.nav-main{
-  padding: 0 15%;
-}
-
 .barra-login{
   float: right;
   text-align: right;
@@ -113,15 +111,24 @@ header img{
   float: left;
 }
 
-.nav-main ul{
-  /* debug */
-  background-color: grey;
-  height: 50px;
-  width: 40%;
-  /* end debug */
-  float: right;
+.nav-main{
+  padding: 0 15%;
 }
 
+.nav-main img{
+  margin-top: 25px;
+}
+
+.nav-main ul{
+  float: right;
+  padding: 20px 0;
+  margin-top: 10px;
+}
+
+li{
+  display: inline-block;
+  margin: 0 30px;
+}
 
 /* REGOLE JUMBOTRON */
 .titolo{
