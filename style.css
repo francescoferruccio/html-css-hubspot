@@ -340,6 +340,7 @@ padding: 0 15%;
 /* REGOLE SEZIONE CUSTOMER */
 #customer{
   background-color: #fff;
+  padding-bottom: 100px;
 }
 
 .number{
@@ -373,9 +374,28 @@ padding: 0 15%;
 }
 
 .grow{
-  /* debug */
-  background-color: grey;
-  /* end debug */
+  padding: 100px 0;
+  background-image: url(img/grow-back.webp);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 35%;
+}
+
+.grow .colonna-a-due{
+  padding-right: 5%;
+}
+
+.grow p{
+  padding: 20px 0;
+}
+
+.grow button{
+  margin: 20px 0;
+}
+
+.grow p:last-child{
+  padding: 20px 0;
+  font-size: 12px;
 }
 
 /* REGOLE FOOTER */
