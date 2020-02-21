@@ -71,23 +71,9 @@ button:hover{
 }
 
 /* REGOLE HEADER */
+header{
 
-
-
-/* TEST DROPDOWN MENU */
-
-.dropdown{
-  display: inline-block;
 }
-
-.dropdown-content{
-  display: none;
-}
-
-.dropdown:hover .dropdown-content{
-  display: block;
-}
-
 
 .nav-login{
   background-color: #F5F8FA;
@@ -118,9 +104,9 @@ button:hover{
   padding-right: 10px;
 }
 
-/* .language-selector *{
+.language-selector *{
   display: inline-block;
-} */
+}
 
 .barra-login{
   float: right;
