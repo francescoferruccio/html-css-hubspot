@@ -404,6 +404,11 @@ footer{
   font-weight: bold;
 }
 
+footer p{
+  color: #cbd6e2;
+  font-size: 12px;
+}
+
 footer a{
   color: #cbd6e2;
   font-size: 15px;
@@ -426,6 +431,7 @@ footer li{
 
 .lingue{
   padding: 30px 0;
+  margin-bottom: 30px;
   text-align: center;
   border-bottom: 1px solid #7c98b6;
 }
@@ -436,21 +442,14 @@ footer li{
 }
 
 .bottom-left{
-  /* debug */
-  height: 50px;
-  background-color: pink;
-  border: 1px solid white;
-  /* end debug */
-  width: 20%;
   float: left;
 }
 
 .bottom-right{
-  /* debug */
-  height: 50px;
-  background-color: pink;
-  border: 1px solid white;
-  /* end debug */
-  width: 20%;
   float: right;
+}
+
+.bottom-right a{
+  padding: 0 20px;
+  font-size: 18px;
 }
