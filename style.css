@@ -99,7 +99,7 @@ header{
   margin-right: 10px;
 }
 
-.language-selector h3:nth-child(2){
+.language-selector .dropdown h3:nth-child(2){
   border-right: 2px solid #cbd6e2;
   padding-right: 10px;
 }
@@ -196,17 +196,13 @@ header img{
 }
 
 .dropdown-content{
-  /* debug */
-  min-height: 100px;
-  min-width: 100px;
-  padding: 20px;
-  /* end debug */
   display:none;
   background-color: #fff;
   border: 1px solid #cbd6e2;
   position: absolute;
   left: 50%;
   transform: translate(-50%);
+  padding: 20px;
 }
 
 .dropdown-content li{
@@ -219,35 +215,29 @@ header img{
 
 .row-dropdown{
   /* debug */
-  min-height: 100px;
-  min-width: 900px;
-  border: 1px solid white;
-  background-color: pink;
-  padding: 10px;
+  min-width: 950px;
   /* end debug */
-  position: relative;
+}
+
+.row-dropdown .colonna-a-due{
+  padding: 20px;
 }
 
 .col-tre-drop{
-  /* debug */
-  min-height: 100px;
-  background-color: green;
-  border: 1px solid white;
-  /* end debug */
   width: 33%;
   float: left;
+  padding: 20px;
 }
 
-/* debug */
-.row-dropdown .colonna-a-due{
-  min-height: 100px;
-  background-color: green;
-  border: 1px solid white;
+.col-tre-drop li{
+  display: block;
+  margin-left: 0;
 }
-/* end debug */
 
-.col-drop-content{
-  padding: 10px;
+.col-tre-drop ul{
+  float: none;
+  list-style: none;
+  padding-top: 0;
 }
 
 .btn-new{
@@ -260,6 +250,14 @@ header img{
 
 .inline *{
   display: inline-block;
+}
+
+.col-drop-content{
+  padding: 20px;
+}
+
+.col-drop-content:hover{
+  background-color: #e5f5f8;
 }
 
 /* REGOLE JUMBOTRON */
