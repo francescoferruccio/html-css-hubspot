@@ -291,31 +291,50 @@ button[name=start]{
 
 /* REGOLE SEZIONE AWARD */
 #award{
-  background-color: lightblue;
+  background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+  color: #fff;
+}
+
+#award .container{
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 .award-top{
-  /* debug */
-  background-color: grey;
-  height: 100px;
-  margin-bottom: 10px;
-  /* end debug */
+padding: 0 15%;
 }
 
-.box-container{
-  /* debug */
-  background-color: grey;
-  /* end debug */
+.award-top h2{
+  margin-bottom: 20px;
+}
+
+.award-description{
+  margin-bottom: 100px;
 }
 
 .box{
-  /* debug */
-  background-color: pink;
-  height: 150px;
-  border: 1px solid black;
-  /* end debug */
+  height: 195px;
   width: 25%;
   float: left;
+  padding-top: 35px;
+  border-right: 1px solid #fff;
+}
+
+.box:last-child{
+  border-right: none;
+}
+
+.box-title{
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.box-top-row{
+  border-bottom: 1px solid #fff;
+}
+
+.box-top-row:last-child{
+  border-right: none;
 }
 
 /* REGOLE SEZIONE CUSTOMER */
