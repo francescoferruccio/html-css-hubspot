@@ -176,7 +176,7 @@ header img{
 
 .nav-main li{
   display: inline-block;
-  margin: 0 30px;
+  margin: 0 10px;
 }
 
 
@@ -186,30 +186,46 @@ header img{
   position: relative;
 }
 
+.dropdown h4{
+  font-size: 20px;
+}
+
+.dropdown p{
+  font-size: 14px;
+  padding: 10px 0;
+}
+
 .dropdown-content{
   /* debug */
   min-height: 100px;
   min-width: 100px;
-  background-color: red;
-  padding: 10px;
+  padding: 20px;
   /* end debug */
-  margin-top: 10px;
   display:none;
+  background-color: #fff;
+  border: 1px solid #cbd6e2;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.dropdown-content li{
+  padding: 10px 0;
 }
 
 .dropdown:hover .dropdown-content{
   display: block;
-  position: absolute;
 }
 
 .row-dropdown{
   /* debug */
   min-height: 100px;
-  min-width: 100px;
+  min-width: 900px;
   border: 1px solid white;
   background-color: pink;
   padding: 10px;
   /* end debug */
+  position: relative;
 }
 
 .col-tre-drop{
@@ -229,6 +245,22 @@ header img{
   border: 1px solid white;
 }
 /* end debug */
+
+.col-drop-content{
+  padding: 10px;
+}
+
+.btn-new{
+  background-color: #00bda5;
+  color: #fff;
+  border-radius: 5px;
+  border-style: none;
+  padding: 10px;
+}
+
+.inline *{
+  display: inline-block;
+}
 
 /* REGOLE JUMBOTRON */
 #jumbotron{
