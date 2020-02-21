@@ -160,7 +160,7 @@ header img{
 }
 
 .nav-main{
-  padding: 0 18%;
+  padding: 10px 18%;
   margin-top: 86px;
 }
 
@@ -178,6 +178,25 @@ header img{
   display: inline-block;
   margin: 0 30px;
 }
+
+/* PROVA DROPDOWN */
+.dropdown{
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-content{
+  display:none;
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+  position: absolute;
+}
+
 
 /* REGOLE JUMBOTRON */
 #jumbotron{
