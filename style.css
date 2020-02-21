@@ -212,6 +212,7 @@ h1{
 /* REGOLE SEZIONE INFO PRINCIPALI */
 #info-principali{
   background-color: #F5F8FA;
+  padding-bottom: 100px;
 }
 
 .info-powerful{
@@ -266,6 +267,7 @@ img[alt="book"]{
 
 .check{
   height: 15px;
+  margin: 0 5px;
 }
 
 .info-hub{
@@ -390,7 +392,7 @@ padding: 0 15%;
 }
 
 .img-customer{
-  width: 100%;
+  width: 110px;
 }
 
 .grow{
