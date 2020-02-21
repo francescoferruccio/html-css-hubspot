@@ -186,10 +186,14 @@ header img{
 }
 
 .dropdown-content{
-  display:none;
-  height: 100px;
-  width: 100px;
+  /* debug */
+  min-height: 100px;
+  min-width: 100px;
   background-color: red;
+  padding: 10px;
+  /* end debug */
+  margin-top: 10px;
+  display:none;
 }
 
 .dropdown:hover .dropdown-content{
@@ -197,6 +201,25 @@ header img{
   position: absolute;
 }
 
+.row-dropdown{
+  /* debug */
+  min-height: 100px;
+  min-width: 100px;
+  border: 1px solid white;
+  background-color: pink;
+  padding: 10px;
+  /* end debug */
+}
+
+.col-tre-drop{
+  /* debug */
+  min-height: 100px;
+  background-color: green;
+  border: 1px solid white;
+  /* end debug */
+  width: 33%;
+  float: left;
+}
 
 /* REGOLE JUMBOTRON */
 #jumbotron{
