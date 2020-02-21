@@ -338,26 +338,38 @@ padding: 0 15%;
 }
 
 /* REGOLE SEZIONE CUSTOMER */
+#customer{
+  background-color: #fff;
+}
+
 .number{
-  /* debug */
-  background-color: grey;
-  /* end debug */
+  padding: 100px 0;
+}
+
+.bold{
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .colonna-a-due{
-  /* debug */
-  height: 100px;
-  background-color: pink;
-  border: 1px solid white;
-  /* end debug */
   width: 50%;
   float: left;
 }
 
-.number{
-  /* debug */
-  background-color: grey;
-  /* end debug */
+.num-description{
+  font-size: 18px;
+  padding-right: 40%;
+  padding-top: 20px;
+}
+
+.box-customer{
+  width: 25%;
+  float: left;
+  padding: 20px;
+}
+
+.img-customer{
+  width: 100%;
 }
 
 .grow{
