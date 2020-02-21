@@ -84,6 +84,7 @@ header{
   top: 0%;
   left: 0%;
   right: 0%;
+  z-index: 1;
 }
 
 .language-selector{
@@ -231,6 +232,10 @@ img[alt="dado"]{
   margin: 10px 0;
   background-color: #fff;
   padding: 50px;
+}
+
+.ingrandisci:hover{
+  transform: scale(1.05);
 }
 
 .colonna-stretta{
