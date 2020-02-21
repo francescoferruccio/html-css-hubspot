@@ -15,7 +15,6 @@ body{
 
 section{
   /* debug */
-  background-color: red;
   min-height: 100px;
   /* end debug */
 }
@@ -400,7 +399,29 @@ padding: 0 15%;
 
 /* REGOLE FOOTER */
 footer{
-  background-color: green;
+  background-color: #33475B;
+  line-height: 2.5em;
+  font-weight: bold;
+}
+
+footer a{
+  color: #cbd6e2;
+  font-size: 15px;
+}
+
+footer li{
+  list-style: none;
+}
+
+.box-footer{
+  padding-top: 100px;
+  width: 25%;
+  float: left;
+  color: #fff;
+}
+
+.social li{
+  display: inline-block;
 }
 
 .bottom-left{
