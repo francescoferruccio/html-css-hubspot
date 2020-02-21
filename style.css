@@ -56,6 +56,10 @@ span{
   font-size: 13px;
 }
 
+button:hover{
+  cursor: pointer;
+}
+
 .container{
   padding: 0 18%;
 }
@@ -128,6 +132,10 @@ button{
   margin: 0 5px;
 }
 
+.btn-white:hover{
+  background-color: #fff1ee;
+}
+
 .btn-orange{
   height: 45px;
   width: 140px;
@@ -136,6 +144,14 @@ button{
   border: 1px solid #fff;
   border-radius: 5px;
   margin: 0 5px;
+}
+
+.btn-orange:hover{
+  background-color: #ffbcac;
+}
+
+.btn-orange-big:hover{
+  background-color: #ffbcac;
 }
 
 header img{
@@ -412,6 +428,10 @@ footer p{
 footer a{
   color: #cbd6e2;
   font-size: 15px;
+}
+
+footer a:hover{
+  color: #7fd1de;
 }
 
 footer li{
