@@ -397,7 +397,7 @@ padding: 0 15%;
   font-size: 12px;
 }
 
-/* REGOLE FOOTER */
+/* REGOLE GENERALI FOOTER */
 footer{
   background-color: #33475B;
   line-height: 2.5em;
@@ -418,6 +418,8 @@ footer li{
   list-style: none;
 }
 
+
+/* PRIMO BLOCCO FOOTER */
 .box-footer{
   padding-top: 100px;
   width: 25%;
@@ -425,10 +427,25 @@ footer li{
   color: #fff;
 }
 
+.btn-contact{
+  width: 70%;
+  height: 45px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border-style: none;
+  color: #33475B;
+}
+
 .social li{
   display: inline-block;
 }
 
+.fab, .far{
+  padding-right: 15px;
+  font-size: 20px;
+}
+
+/* SECONDO BLOCCO FOOTER */
 .lingue{
   padding: 30px 0;
   margin-bottom: 30px;
@@ -441,6 +458,8 @@ footer li{
   padding: 0 10px;
 }
 
+
+/* TERZO BLOCCO FOOTER */
 .bottom-left{
   float: left;
 }
