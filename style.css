@@ -179,7 +179,8 @@ header img{
   margin: 0 30px;
 }
 
-/* PROVA DROPDOWN */
+
+/* REGOLE DROPDOWN MENU */
 .dropdown{
   display: inline-block;
   position: relative;
@@ -220,6 +221,14 @@ header img{
   width: 33%;
   float: left;
 }
+
+/* debug */
+.row-dropdown .colonna-a-due{
+  min-height: 100px;
+  background-color: green;
+  border: 1px solid white;
+}
+/* end debug */
 
 /* REGOLE JUMBOTRON */
 #jumbotron{
