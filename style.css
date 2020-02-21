@@ -209,6 +209,10 @@ header img{
   padding: 10px 0;
 }
 
+.dropdown-content li:hover{
+  background-color: #e5f5f8;
+}
+
 .dropdown:hover .dropdown-content{
   display: block;
 }
